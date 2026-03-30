@@ -74,11 +74,11 @@ def result_analysis(n, finish, safe_sequence):
     print("\n--- Result ---")
 
     if all(finish):
-        print("System is in SAFE state ✅")
+        print("System is in SAFE state ")
         print("Safe Sequence:", " -> ".join(safe_sequence))
         print("\nExplanation: All processes completed successfully without deadlock.")
     else:
-        print("System is in UNSAFE state ❌")
+        print("System is in UNSAFE state ")
         print("\nExplanation: Deadlock may occur as not all processes could complete.")
 
 
